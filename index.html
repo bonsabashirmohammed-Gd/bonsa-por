@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bonsa Bashir - Software Developer Portfolio">
+  <title>Bonsa Bashir | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#home" class="brand">
+        <span>BB</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <nav class="menu" id="menu">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= HOME ================= -->
+  <main id="home">
+
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><i class="fa-solid fa-star"></i> Web developer and designer</p>
+          <h1>I'm <span>Bonsa Bashir.</span></h1>
+          <h2>A passionate Web developer and designer</h2>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-main">Hire me</a>
+            <a href="#" class="btn btn-outline" id="cvButton">
+              <i class="fa-solid fa-download"></i> Get my CV
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>3+</strong>
+              <span>Months Experience</span>
+            </div>
+            <div>
+              <strong>4+</strong>
+              <span>Projects</span>
+            </div>
+            <div>
+              <strong>3+</strong>
+              <span>Happy Clients</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-photo reveal">
+          <div class="photo-ring">
+            <img src="profile.jpg" alt="Bonsa Bashir">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reference-style service ticker -->
+    <div class="service-ticker">
+      <div class="ticker-track">
+        <span><i class="fa-solid fa-star"></i> Web Design</span>
+        <span><i class="fa-solid fa-star"></i> Web Development</span>
+        <span><i class="fa-solid fa-star"></i> Graphics Design</span>
+        <span><i class="fa-solid fa-star"></i> Video Editing</span>
+        <span><i class="fa-solid fa-star"></i> Web Design</span>
+        <span><i class="fa-solid fa-star"></i> Web Development</span>
+        <span><i class="fa-solid fa-star"></i> Graphics Design</span>
+        <span><i class="fa-solid fa-star"></i> Video Editing</span>
+      </div>
+    </div>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about-section section" id="about">
+      <div class="about-card reveal">
+        <div class="about-photo">
+          <div class="about-ring">
+            <img src="profile.jpg" alt="Bonsa Bashir">
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="section-label">About Me</p>
+          <h2>Who is <span>Bonsa Bashir?</span></h2>
+
+          <p>
+            I am a passionate software developer, creator and problem solver.
+            For me, development is not only about writing code; it is about
+            understanding problems, creating meaningful solutions and making
+            a positive difference through technology.
+          </p>
+
+          <p>
+            I enjoy learning new technologies, designing user-friendly
+            interfaces and building practical projects. My goal is to keep
+            growing as a developer and create digital products that people
+            can actually use.
+          </p>
+
+          <div class="about-points">
+            <div><i class="fa-solid fa-code"></i> Clean &amp; modern code</div>
+            <div><i class="fa-solid fa-lightbulb"></i> Problem solving</div>
+            <div><i class="fa-solid fa-rocket"></i> Continuous learning</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="skills-section section" id="skills">
+      <div class="section-title reveal">
+        <p>MY FAVORITE TOOLS</p>
+        <h2>Exploring the Tools <span>Behind My Skills</span></h2>
+      </div>
+
+      <div class="skills-row">
+        <div class="skill reveal"><div class="skill-icon html"><i class="fa-brands fa-html5"></i></div><b>98%</b><span>HTML</span></div>
+        <div class="skill reveal"><div class="skill-icon css"><i class="fa-brands fa-css3-alt"></i></div><b>95%</b><span>CSS</span></div>
+        <div class="skill reveal"><div class="skill-icon js">JS</div><b>90%</b><span>JavaScript</span></div>
+        <div class="skill reveal"><div class="skill-icon"><i class="fa-brands fa-react"></i></div><b>60%</b><span>React</span></div>
+        <div class="skill reveal"><div class="skill-icon"><i class="fa-brands fa-node-js"></i></div><b>50%</b><span>Node.js</span></div>
+        <div class="skill reveal"><div class="skill-icon"><i class="fa-solid fa-database"></i></div><b>85%</b><span>MySQL</span></div>
+        <div class="skill reveal"><div class="skill-icon"><i class="fa-brands fa-php"></i></div><b>80%</b><span>PHP</span></div>
+        <div class="skill reveal"><div class="skill-icon"><i class="fa-brands fa-git-alt"></i></div><b>95%</b><span>Git</span></div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section services-section" id="services">
+      <div class="section-title left reveal">
+        <p>WHAT I DO</p>
+        <h2>My <span>Services</span></h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-number">01</div>
+          <i class="fa-solid fa-code service-icon"></i>
+          <h3>Web Development</h3>
+          <p>Responsive, fast and functional websites built around real user needs.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-number">02</div>
+          <i class="fa-solid fa-pen-ruler service-icon"></i>
+          <h3>UI / Web Design</h3>
+          <p>Modern interfaces with a clean visual style and easy navigation.</p>
+        </article>
+
+        <article class="service-card reveal">
+          <div class="service-number">03</div>
+          <i class="fa-solid fa-mobile-screen service-icon"></i>
+          <h3>Application Development</h3>
+          <p>Practical software solutions for students, organizations and businesses.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO ================= -->
+    <section class="portfolio-section section" id="portfolio">
+      <div class="section-title left reveal">
+        <p>PORTFOLIO</p>
+        <h2>My Latest <span>Projects</span></h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project-card reveal">
+          <div class="project-preview preview-one">
+            <img class="project-site-image" src="https://image.thum.io/get/width/1000/crop/700/noanimate/https://learnhub.ararso.dev/index.html" alt="LearnHub e-learning platform homepage" loading="lazy">
+          </div>
+          <div class="project-info">
+            <small>Web Application</small>
+            <h3>E-Learning Management System</h3>
+            <p>Learning resources, instructors, students and course management.</p>
+            <a href="https://learnhub.ararso.dev/index.html" target="_blank" rel="noopener noreferrer">View Project <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-two">
+            <img class="project-site-image" src="https://amana-excellence-center.vercel.app/assets/images/aec.jpg" alt="Amana Excellence Center website homepage" loading="lazy">
+          </div>
+          <div class="project-info">
+            <small>built website for AEC organization</small>
+            <h3>Amana book review excellence Center Website
+            </h3>
+            <p>A digital system concept for books, members and borrowing records.</p>
+            <a href="https://amana-excellence-center.vercel.app" target="_blank" rel="noopener noreferrer">View Project <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-preview preview-three">
+            <div class="mock-dashboard">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="project-info">
+            <small>Community Platform</small>
+            <h3>Technology Club Website</h3>
+            <p>A platform for technology activities, projects and community updates.</p>
+            <a href="#contact">View Project <i class="fa-solid fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="contact-section section" id="contact">
+      <div class="contact-left reveal">
+        <p class="section-label">CONTACT</p>
+        <h2>Let's Work <span>Together</span></h2>
+        <p>Email: <a href="mailto:bonsabashirmohammed@gmail.com"> bonsabashirmohammed@gmail.com</a></p>
+        <p>Phone: <a href="tel:+251946963979">+251 946963979</a></p>
+        <p>Location: Ethiopia</p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm">
+        <input type="text" id="name" name="name" placeholder="Your Name *" maxlength="100" autocomplete="name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email *" maxlength="150" autocomplete="email" required>
+        <textarea id="message" name="message" placeholder="Your idea or message *" rows="5" maxlength="2000" required></textarea>
+        <button type="submit" class="btn btn-main" id="submitButton">Send Message</button>
+        <small id="formMessage"></small>
+      </form>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <a href="#home" class="brand"><span>BB</span></a>
+        <h3>Bonsa Bashir</h3>
+        <p>Software Developer &amp; Creative Problem Solver</p>
+      </div>
+
+      <div class="follow">
+        <h3>Follow me</h3>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" aria-label="Telegram"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Bonsa Bashir. All Rights Reserved.</div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script type="module" src="script.js"></script>
+  <script>
+    const cvButton = document.getElementById("cvButton");
+    if (cvButton) {
+      cvButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        const link = document.createElement("a");
+        link.href = "Bonsa-Bashir-CV.pdf";
+        link.download = "Bonsa-Bashir-CV.pdf";
+        link.click();
+      });
+    }
+  </script>
+</body>
+</html>
